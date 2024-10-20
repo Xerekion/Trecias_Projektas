@@ -1,0 +1,14 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* width - Pločio nurodymas */
+    width: 150px;
+    text-align: center;
+    display: inline-table;
+}
+.week{
+    background-color: rgb(219, 219, 219);
+}
+.weekend{
+    color: rgb(185, 180, 180);
+}
