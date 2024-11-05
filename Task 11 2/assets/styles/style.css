@@ -4,6 +4,7 @@
 
 * {
     box-sizing: border-box;
+    
 }
 
 body {
@@ -20,16 +21,14 @@ body {
     
     
 }
-.landing{
-    
-}
+
 
 .flex {
     display: flex;
 }
 
 .top {
-    
+    min-width: 100%;
     align-items: center;
     justify-content: space-between;
 
@@ -43,7 +42,7 @@ body {
 }
 .nunito-text{
     font-family: var(--font2);
-    font-weight: 400;
+    font-weight: 100;
     font-size: 18px;
     gap: 40px;
 }
@@ -58,24 +57,27 @@ body {
     font-size: 16px;
 }
 .gradient{
-    top: 231.97px;
-    left: -401.52px;
+    top: -231.97px;
+    left: 0px;
     width: 467px;
     height: 1233.79px;
     transform: rotate(-54.37deg);
+    
     background: linear-gradient(to right, #5454D4 0,  #5454D442 100%);
-    filter: blur(300px);
+    
+    filter: blur(400px);
     border-radius: 233.5px;
     position: absolute;
 }
 .gradient2{
-    top: 161px;
-    left: 1701.44px;
+    top: -161px;
+    left: 901.44px;
     width: 467px;
     height: 1399.3px;
     transform: rotate(65.71deg);
     background: linear-gradient(to right, #FBA81C41 0,  #E0568815 100%);
-    filter: blur(300px);
+    
+    filter: blur(400px);
     border-radius: 233.5px;
     position: absolute;
 }
