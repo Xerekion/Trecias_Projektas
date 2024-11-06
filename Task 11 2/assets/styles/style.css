@@ -9,15 +9,15 @@
 
 body {
     margin: 0 auto;
-    font-family: var(--font);
+    font-family: var(--font2);
     color: var(--text-color);
     padding: 42px 120px;
     background-color: #19191B;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /*align-items: center;*/
     min-width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     
     
 }
@@ -31,6 +31,8 @@ body {
     min-width: 100%;
     align-items: center;
     justify-content: space-between;
+    font-weight: 100;
+    font-size: 18px;
 
 }
 .logotext{
@@ -38,14 +40,11 @@ body {
     font-size: 28px;
     font-weight: 900;
     gap: 8px;
+    font-family: var(--font);
     
 }
-.nunito-text{
-    font-family: var(--font2);
-    font-weight: 100;
-    font-size: 18px;
-    gap: 40px;
-}
+
+
 .contact-button{
     border: solid 1px;
     border-color: var(--border-color);
@@ -80,4 +79,36 @@ body {
     filter: blur(400px);
     border-radius: 233.5px;
     position: absolute;
+}
+
+.content{
+    padding-top: 120px;
+    width: 582px;
+}
+button{
+    border-style: none;
+    color: var(--text-color);
+    background:none;
+    font-family: var(--font2);
+    
+}
+button:hover{
+    background-color: rgb(155, 158, 182);
+}
+.our-services{
+    background-color: #5454D4;
+    border-radius: 4px;
+    width: 204px;
+    height: 58px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+    color: var(--text-color);
 }
