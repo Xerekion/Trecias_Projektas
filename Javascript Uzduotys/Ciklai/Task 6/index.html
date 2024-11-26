@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = 0;
+        let i = 0;
+        let string = "";
+        while(i < 300){
+            let b = Math.floor(Math.random()*301);
+            if(b > 150) a++;
+            if (b > 275){
+                string +=("["+ b +"] ");
+            }
+            else{
+                string +=(b + " ");
+            }
+            i++;
+        }
+        console.log(string);
+        console.log("The amount of numbers more than 150 is " + a);
+
+    </script>
+</body>
+</html>

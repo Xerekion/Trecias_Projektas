@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let a = "54 77 2 59 17 19 108";
+        let array = a.split(" ");
+        let bool = true;
+        for (let i = 0; i < array.length; i++) {
+            bool = true;
+            for (let b = 2; b < array[i]-1; b++) {
+                if (array[i]%b==0){
+                    bool = false;
+                    console.log("bad " + bool);
+                }
+            }
+            if(bool){
+                console.log(array[i] + " " + i + " " + bool);
+            }
+        }
+        console.log(array);
+    </script>
+</body>
+
+</html>
