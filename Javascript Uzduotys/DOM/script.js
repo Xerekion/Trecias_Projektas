@@ -1,7 +1,6 @@
 let rezultatas = '';
 
 for (const produktas of produktai.products) {
-    console.log(produktas);
     rezultatas += `
             <tr>
                 <th><img src="${produktas.thumbnail}"></th>
